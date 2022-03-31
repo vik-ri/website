@@ -1,8 +1,7 @@
 .hero {
-  background: url(../img/arnaud-mesureur-17OxKyThYPo-unsplash.png) center / cover no-repeat;
-  height: 100vh;
-  min-height: 650px;
+  background: url(../img/bg.png) center center/cover no-repeat;
   color: #fff;
+  margin-bottom: -60px;
 }
 
 .hero__container {

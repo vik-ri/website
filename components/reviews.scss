@@ -1,6 +1,6 @@
 .reviews__display {
     background: #F8FAF9;
-    padding: 42px 42px 42px;
+    padding: 42px 142px 42px 42px;
     margin-bottom: 10px;
     
 }
@@ -23,6 +23,7 @@
 .reviews__content {
     flex: 1;
     margin-left: 40px;
+    padding-top: 25px;
 }
 
 .reviews__title {
@@ -34,6 +35,7 @@
 
 .reviews__text {
     margin-bottom: 25px;
+    line-height: 22px;
 }
 
 .reviews__author {

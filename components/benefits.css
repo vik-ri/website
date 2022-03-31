@@ -9,6 +9,15 @@
       -ms-flex: 1;
           flex: 1;
   margin: 0.3%;
+  position: relative;
+}
+.benefits__item::before {
+  content: url(../img/Shape.png);
+  position: absolute;
+  top: 30px;
+  right: 0;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
 }
 .benefits__item:first-child {
   margin-left: 0;
@@ -32,8 +41,8 @@
 }
 
 .benefit__icon {
-  width: 75px;
-  height: 69px;
+  max-width: 100%;
+  max-height: 100%;
   position: absolute;
   top: 50%;
   left: 50%;

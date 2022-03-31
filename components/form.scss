@@ -1,10 +1,12 @@
 .order-section {
-    background:#2B2B2B;
+    background: url(../img/cta.png) center center / cover no-repeat;
 }
 
-
+.form {
+    display: flex;
+}
 .form__col {
-    
+    flex: 1;
     margin-right: 20px;
 
 
@@ -16,7 +18,11 @@
 .form__row {
 
     display: flex;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
+
+    &--textarea {
+        margin-bottom: 30px;
+    }
 }
 
 .form__block {
@@ -31,10 +37,10 @@
 .form__input {
     width: 100%;
     border: solid 3px transparent;
-    padding: 18px 11px;
+    padding: 16px 11px;
 
     &--textarea {
-        height: 82px;
+        height: 152px;
         resize: none;
     }
 
@@ -47,7 +53,15 @@
 .form__controls {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 26px;
+    margin-bottom: 18px;
+
+    &--margin-bottom {
+        margin-bottom: 45px;
+    }
+}
+
+.form__btns {
+    transform: translate(-10px);
 }
 
 .radio {
@@ -55,7 +69,6 @@
     cursor: pointer;
     user-select: none;
     margin-right: 30px;
-    margin-bottom: 20px;
 
     &--checkbox {
         .radio__visible {

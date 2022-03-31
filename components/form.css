@@ -1,8 +1,17 @@
 .order-section {
-  background: #2B2B2B;
+  background: url(../img/cta.png) center center/cover no-repeat;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .form__col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   margin-right: 20px;
 }
 .form__col:last-child {
@@ -13,7 +22,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
+}
+.form__row--textarea {
+  margin-bottom: 30px;
 }
 
 .form__block {
@@ -29,10 +41,10 @@
 .form__input {
   width: 100%;
   border: solid 3px transparent;
-  padding: 18px 11px;
+  padding: 16px 11px;
 }
 .form__input--textarea {
-  height: 82px;
+  height: 152px;
   resize: none;
 }
 .form__input:focus {
@@ -46,7 +58,15 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 26px;
+  margin-bottom: 18px;
+}
+.form__controls--margin-bottom {
+  margin-bottom: 45px;
+}
+
+.form__btns {
+  -webkit-transform: translate(-10px);
+          transform: translate(-10px);
 }
 
 .radio {
@@ -59,7 +79,6 @@
       -ms-user-select: none;
           user-select: none;
   margin-right: 30px;
-  margin-bottom: 20px;
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;

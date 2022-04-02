@@ -10,7 +10,7 @@
     &::before {
         content: url(../img/Shape.png);
         position: absolute;
-        top: 30px;
+        top: rem(30px);
         right: 0;
         transform: translateX(50%);
     }
@@ -30,8 +30,8 @@
 
 .benefit__image-wrapper {
     display: inline-block;
-    width: 126px;
-    height: 126px;
+    width: rem(126px);
+    height: rem(126px);
     position: relative;
     background: #F2F5F4;
     border-radius: 50%;

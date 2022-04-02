@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    font-size: 18px;
+    font-size: rem(18px);
     font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
@@ -17,13 +17,13 @@ body {
 .wrapper {
     position: relative;
     width: 100%;
-    min-width: 940px;
     min-height: 100%;
     overflow: hidden;
 }
 
 .container {
-    width: 940px;
+    width: 95%;
+    max-width: $containerWidth;
     margin: auto;
 }
 

@@ -1,11 +1,11 @@
 .btn {
     display: inline-block;
-    font-size: rem(16px);
+    font-size: 16px;
     font-weight: bold;
-    padding: rem(20px) rem(41px);
+    padding: 20px 41px;
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: rem(100px);
+    border-radius: 100px;
     line-height: 1;
     color: black;
     border: none;
@@ -40,7 +40,7 @@
         background: transparent;
         color: white;
         text-transform: none;
-        padding: rem(20px) rem(22px);
+        padding: 20px 22px;
     
 
     &:hover {

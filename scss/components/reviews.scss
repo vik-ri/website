@@ -7,11 +7,22 @@
 
 .reviews__display-inner {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }
 
 .reviews__avatar {
     width: 253px;
     height: 262px;
+
+    @include tablets {
+        width: 130px;
+        height: 130px;
+    }
 }
 
 .reviews__avatar-img {
@@ -31,15 +42,28 @@
     font-weight: bold;
     color: #292929;
     margin-bottom: 12px;
+
+    @include tablets {
+        margin-bottom: 4px;
+    }
 }
 
 .reviews__text {
     margin-bottom: 25px;
     line-height: 22px;
+
+    
+    @include tablets {
+        margin-bottom: 2px;
+    }
 }
 
 .reviews__author {
     font-size: 18px;
     font-weight: bold;
     color: #292929;
+
+    @include tablets {
+        margin-bottom: 25px;
+    }
 }

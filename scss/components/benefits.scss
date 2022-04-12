@@ -1,3 +1,9 @@
+.section__why {
+    @include phones {
+    margin-bottom: rem(150px);
+    }
+}
+
 .benefits {
     display: flex;
 
@@ -13,13 +19,13 @@
 
     @include phones {
         padding: 0;
-        margin-bottom: 19px;
+        margin-bottom: rem(19px);
     }
 
     &::before {
         content: url(../img/Shape.png);
         position: absolute;
-        top: 30px;
+        top: rem(30px);
         right: 0;
         transform: translateX(50%);
     }
@@ -44,8 +50,8 @@
 
 .benefit__image-wrapper {
     display: inline-block;
-    width: 126px;
-    height: 126px;
+    width: rem(126px);
+    height: rem(126px);
     position: relative;
     background: #F2F5F4;
     border-radius: 50%;
@@ -68,6 +74,6 @@
 .benefit__image {
     @include phones {
         margin-bottom: 0;
-        margin-right: 20px;
+        margin-right: rem(20px);
     }
 }

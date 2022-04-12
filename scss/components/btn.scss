@@ -1,8 +1,8 @@
 .btn {
     display: inline-block;
-    font-size: 16px;
+    font-size: rem(16px);
     font-weight: bold;
-    padding: 20px 41px;
+    padding: rem(20px) rem(41px);
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 100px;
@@ -27,6 +27,7 @@
     .btn--theme--yellow {
         background: #FFD517;
         color: black;
+        margin-right: rem(200px);
     
 
     &:hover {
@@ -40,7 +41,10 @@
         background: transparent;
         color: white;
         text-transform: none;
-        padding: 20px 22px;
+        padding: rem(20px) rem(22px);
+       
+
+        
     
 
     &:hover {

@@ -196,7 +196,7 @@ img {
 
 .hero__main-title {
   font-size: 2.6666666667rem;
-  line-height: 1.4;
+  line-height: 3.2222222222rem;
   font-weight: bold;
   margin-bottom: 0.9444444444rem;
   text-transform: uppercase;
@@ -209,7 +209,7 @@ img {
 
 .hero__title-dsc {
   font-size: 1.1666666667rem;
-  margin-bottom: 1.5555555556rem;
+  margin-bottom: 2.2222222222rem;
   padding-right: 10%;
 }
 @media screen and (max-width: 768px) {
@@ -280,7 +280,6 @@ img {
 }
 
 .menu {
-  margin: 0 1.6666666667rem;
   padding-top: 0.2777777778rem;
 }
 @media screen and (max-width: 768px) {
@@ -304,7 +303,7 @@ img {
 }
 
 .menu__item {
-  margin-right: 0.8333333333rem;
+  margin-right: 1.2222222222rem;
   margin-bottom: 0.5555555556rem;
 }
 .menu__item:last-child {
@@ -314,6 +313,9 @@ img {
 .menu__link {
   text-decoration: none;
   white-space: nowrap;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
 }
 
 .phone-number__icon {
@@ -639,7 +641,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 0.5555555556rem;
+  margin-bottom: 0.7777777778rem;
 }
 .form__row--textarea {
   margin-bottom: 1.6666666667rem;
@@ -658,7 +660,7 @@ img {
 .form__input {
   width: 100%;
   border: solid 3px transparent;
-  padding: 0.8888888889rem 0.6111111111rem;
+  padding: 1rem 0.6111111111rem;
 }
 .form__input--textarea {
   height: 8.4444444444rem;
@@ -694,9 +696,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .radio {
@@ -733,6 +735,7 @@ img {
 .radio__visible {
   width: 1.3888888889rem;
   height: 1.3888888889rem;
+  margin-right: 0.5555555556rem;
   position: relative;
   border-radius: 50%;
   background: #FFFFFF;
@@ -815,6 +818,10 @@ img {
   }
 }
 
+.reviews__main-title {
+  margin-bottom: 1.4444444444rem;
+}
+
 .reviews__title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -853,6 +860,9 @@ img {
 }
 
 .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -885,6 +895,11 @@ img {
 
 .footer__box {
   padding: 20px 0;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .footer__address {
@@ -949,4 +964,9 @@ img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+}
+
+.footer__contacts {
+  font-style: normal;
+  color: black;
 }

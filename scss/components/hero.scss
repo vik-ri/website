@@ -36,7 +36,7 @@
 
 .hero__main-title {
     font-size: rem(48px);
-    line-height: 1.4;
+    line-height: rem(58px);
     font-weight: bold;
     margin-bottom: rem(17px);
     text-transform: uppercase;
@@ -52,7 +52,7 @@
 
 .hero__title-dsc {
     font-size: rem(21px);
-    margin-bottom: rem(28px);
+    margin-bottom: rem(40px);
     padding-right: 10%;
 
     @include tablets {

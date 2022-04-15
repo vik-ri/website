@@ -23,7 +23,6 @@
 }
 
 .menu {
-    margin: 0 rem(30px);
     padding-top: rem(5px);
 
     @include tablets {
@@ -42,7 +41,7 @@
   }
 
   .menu__item {
-      margin-right: rem(15px);
+      margin-right: rem(22px);
       margin-bottom: rem(10px);
 
       &:last-child {
@@ -53,6 +52,9 @@
   .menu__link {
       text-decoration: none;
       white-space: nowrap;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 700;
   }
 
   .phone-number__icon {

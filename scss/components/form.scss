@@ -36,7 +36,7 @@
 .form__row {
 
     display: flex;
-    margin-bottom: rem(10px);
+    margin-bottom: rem(14px);
 
     &--textarea {
         margin-bottom: rem(30px);
@@ -55,7 +55,7 @@
 .form__input {
     width: 100%;
     border: solid 3px transparent;
-    padding: rem(16px) rem(11px);
+    padding: rem(18px) rem(11px);
 
     &--textarea {
         height: rem(152px);
@@ -85,7 +85,7 @@
 .form__btns {
     transform: translate(-10px);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     
 }
 
@@ -124,6 +124,7 @@
 .radio__visible {
     width: rem(25px);
     height: rem(25px);
+    margin-right: rem(10px);
     position: relative;
     border-radius: 50%;
     background: #FFFFFF;

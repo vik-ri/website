@@ -403,7 +403,6 @@ img {
 .btn--theme--yellow {
   background: #FFD517;
   color: black;
-  margin-right: 11.1111111111rem;
 }
 .btn--theme--yellow:hover {
   color: black;
@@ -719,7 +718,7 @@ img {
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
-  margin-right: 0.5555555556rem;
+  margin-right: 9px;
 }
 .radio--checkbox .radio__visible::before {
   background: url(../img/gal.png) center center no-repeat;

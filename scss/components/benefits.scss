@@ -56,19 +56,33 @@
     background: #F2F5F4;
     border-radius: 50%;
     overflow: hidden;
+    padding: rem(30px);
+    flex-shrink: 0;
+
+    @include tablets {
+        margin-bottom: rem(20px);
+    }
+
+    @include phones {
+        margin-right: rem(10px);
+    }
 }
 
 .benefit__icon {
     max-width: 100%;
     max-height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    
 }
 
 .benefit__title {
     color: black;
+    font-size: rem(27px);
+    line-height: rem(32px);
+    margin-bottom: rem(20px);
+
+    @include tablets {
+        margin-bottom: rem(7px);
+    }
 }
 
 .benefit__image {

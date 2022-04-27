@@ -2,6 +2,15 @@
     background: url(../img/cta.png) center center / cover no-repeat;
 }
 
+.order-section__title.section__title {
+    @include tablets {
+    margin-bottom: rem(24px);
+}
+
+ @include phones {
+     margin-bottom: rem(41px);
+ }
+}
 
 .form {
     display: flex;
@@ -13,7 +22,7 @@
 
     @include phones {
        
-        padding: 95% 0;
+        padding: 0;
         
     }
 }
@@ -40,6 +49,10 @@
 
     &--textarea {
         margin-bottom: rem(30px);
+
+        @include tablets {
+            margin-bottom: rem(14px);
+        }
     }
 }
 
@@ -60,11 +73,19 @@
     &--textarea {
         height: rem(152px);
         resize: none;
+
+        @include tablets {
+            height: rem(82px);
+        }
     }
 
     &:focus {
         border-color:#FEDB3F;
         outline: none;
+    }
+
+    @include tablets {
+        padding: rem(7px) rem(5px);
     }
 }
 
@@ -75,6 +96,9 @@
 
     &--margin-bottom {
         margin-bottom: rem(45px);
+        @include phones {
+            margin-bottom: rem(26px);
+        }
     }
 
     @include phones {
@@ -86,6 +110,10 @@
     transform: translate(-10px);
     display: flex;
     justify-content: flex-start;
+
+    @include tablets {
+        justify-content: center;
+    }
     
 }
 

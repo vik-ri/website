@@ -45,7 +45,11 @@
         margin-bottom: rem(3px);
     }
 
-   
+  @include phones {
+      font-size: rem(40px);
+      line-height: rem(36px);
+      margin-bottom: rem(10px);
+  } 
 
     
 }
@@ -61,7 +65,10 @@
     }
 
     @include phones {
-        padding: rem(16px);
+        padding: 0;
+        font-size: rem(18px);
+        line-height: rem(20px);
+        margin-bottom: rem(44px);
     }
     
 }

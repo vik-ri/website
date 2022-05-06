@@ -847,9 +847,21 @@ img {
   }
 }
 
+.reviews__display {
+  padding: 42px 142px 42px 42px;
+  background: #F8FAF9;
+  margin-bottom: 0.8333333333rem;
+}
+@media screen and (max-width: 768px) {
+  .reviews__display {
+    padding: 56px 24px 46px;
+    margin-bottom: 1.7777777778rem;
+  }
+}
 @media screen and (max-width: 480px) {
   .reviews__display {
-    margin-bottom: 3.0555555556rem;
+    padding: 56px 24px 31px;
+    margin-bottom: 1.6111111111rem;
   }
 }
 

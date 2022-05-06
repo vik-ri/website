@@ -15,8 +15,18 @@
 }
 
 .reviews__display {
+    padding: 42px 142px 42px 42px;
+    background: #F8FAF9;
+    margin-bottom: rem(15px);
+
+    @include tablets {
+        padding: 56px 24px 46px;
+        margin-bottom: rem(32px);
+    }
+    
     @include phones {
-    margin-bottom: rem(55px);
+        padding: 56px 24px 31px;
+    margin-bottom: rem(29px);
     }
 }
 
